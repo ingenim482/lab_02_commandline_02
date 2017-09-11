@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+[>
 
 
 ==========
@@ -47,7 +47,7 @@ Copy and paste the output below.
 Type [CTRL + C] to get your prompt back.
 ----------
 
-
+ent-v314-011:~ student$ 
 
 ==========
 5. Say good mornin' again with quotes!
@@ -56,7 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -66,7 +66,8 @@ $ echo *
 
 What happens?
 ----------
-
+it echos my directory list in sentence form. 
+Adlm Adobe Applications Desktop Documents Downloads Library MPLABXProjects Movies Music New Unity Project Pictures Public QLData Things food ipe.properties isus mtec1002 pymel.log test xgen
 
 
 ==========
@@ -74,7 +75,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear 
 
 
 ==========
@@ -87,7 +88,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -97,7 +103,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"
 
 
 ==========
@@ -106,25 +112,27 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
-
+curl -o google.html https://www.google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11199    0 11199    0     0  81079      0 --:--:-- --:--:-- --:--:-- 82345
 
 ==========
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
-
+pwd 
+/Users/student
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
+cd ~
 
-
-
-==========
+==========gzip 
 13. So... the lab materials are located at this url:
 
 http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
@@ -138,14 +146,17 @@ Use ls to verify that it downloaded.
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
 
-
+curl -o mtech1002-lab-02.zip https://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  935k  100  935k    0     0  5380k      0 --:--:-- --:--:-- --:--:-- 6154k
 
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip mtech1002-lab-02.zip
 
 
 ==========
