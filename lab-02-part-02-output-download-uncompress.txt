@@ -165,7 +165,7 @@ unzip mtech1002-lab-02.zip
 Copy and paste the output below.
 ----------
 
-
+books	logs	web
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -175,7 +175,12 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
-
+Adlm			Library			Public			isus
+Adobe			MPLABXProjects		QLData			mtec1002
+Applications		Movies			Things			pymel.log
+Desktop			Music			food			stuff
+Documents		New Unity Project	google.html		test
+Downloads		Pictures		ipe.properties		xgen
 
 
 ==========
@@ -187,7 +192,9 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+ent-v314-011:stuff student$ echo "hi" > hello.txt
+ent-v314-011:stuff student$ ls
+hello.txt
 
 
 ==========
@@ -199,7 +206,17 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+ent-v314-011:¨ student$ tar -cvf stuff.tar stuff
+a stuff
+a stuff/hello.txt
+ent-v314-011:¨ student$ ls 
+Adlm			MPLABXProjects		Things			stuff
+Adobe			Movies			food			stuff.tar
+Applications		Music			google.html		test
+Desktop			New Unity Project	ipe.properties		xgen
+Documents		Pictures		isus
+Downloads		Public			mtec1002
+Library			QLData			pymel.log
 
 
 ==========
@@ -209,7 +226,9 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+ent-v314-011:¨ student$ tar -cvf stuff.tar stuff
+a stuff
+a stuff/hello.txt
 
 
 ==========
@@ -217,6 +236,14 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
+ent-v314-011:¨ student$ ls 
+Adlm			MPLABXProjects		Things			stuff
+Adobe			Movies			food			stuff.tar
+Applications		Music			google.html		test
+Desktop			New Unity Project	ipe.properties		xgen
+Documents		Pictures		isus
+Downloads		Public			mtec1002
+Library			QLData			pymel.log
 
 
 
@@ -227,7 +254,13 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
-
+Adlm			MPLABXProjects		Things			stuff
+Adobe			Movies			food			stuff.tar.gz
+Applications		Music			google.html		test
+Desktop			New Unity Project	ipe.properties		xgen
+Documents		Pictures		isus
+Downloads		Public			mtec1002
+Library			QLData			pymel.log
 
 
 ==========
